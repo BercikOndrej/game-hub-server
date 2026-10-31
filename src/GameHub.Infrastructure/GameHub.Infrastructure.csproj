@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\GameHub.Application\GameHub.Application.csproj" />
+    <ProjectReference Include="..\GameHub.Domain\GameHub.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>b88a3864-b0b9-49ce-b8f5-4e3258cf0a24</UserSecretsId>
+  </PropertyGroup>
+</Project>

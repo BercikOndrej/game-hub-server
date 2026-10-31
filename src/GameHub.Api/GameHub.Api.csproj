@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\GameHub.Infrastructure\GameHub.Infrastructure.csproj" />
+    <ProjectReference Include="..\GameHub.Application\GameHub.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b88a3864-b0b9-49ce-b8f5-4e3258cf0a24</UserSecretsId>
+  </PropertyGroup>
+</Project>

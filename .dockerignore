@@ -1,0 +1,43 @@
+# Build output – the image builds its own inside the container
+**/bin/
+**/obj/
+**/artifacts/
+**/publish/
+**/TestResults/
+
+# VCS & IDE
+.git/
+.gitignore
+**/.idea/
+**/.vs/
+**/.vscode/
+**/*.user
+**/*.DotSettings.user
+
+# Docker files themselves (not needed inside the build context)
+**/Dockerfile*
+**/docker-compose*
+**/compose*.y*ml
+.dockerignore
+
+# Secrets & local configuration – never bake into an image
+**/.env
+**/.env.*
+**/appsettings.*.local.json
+**/appsettings.Local.json
+**/secrets.json
+**/*.pfx
+**/*.p12
+**/*.key
+
+# Local databases, logs, OS junk
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.sqlite
+**/logs/
+**/.DS_Store
+**/Thumbs.db
+
+# Docs
+**/*.md
