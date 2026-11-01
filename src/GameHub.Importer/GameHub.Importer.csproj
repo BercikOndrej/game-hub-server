@@ -2,6 +2,10 @@
   <ItemGroup>
     <ProjectReference Include="..\GameHub.Infrastructure\GameHub.Infrastructure.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dumpify" Version="0.8.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.14" />
+  </ItemGroup>
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
