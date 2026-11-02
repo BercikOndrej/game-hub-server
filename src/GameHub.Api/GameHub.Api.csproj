@@ -3,6 +3,9 @@
     <ProjectReference Include="..\GameHub.Infrastructure\GameHub.Infrastructure.csproj" />
     <ProjectReference Include="..\GameHub.Application\GameHub.Application.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.3.1" />
+  </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
